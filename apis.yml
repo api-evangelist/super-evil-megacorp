@@ -1,8 +1,12 @@
 aid: super-evil-megacorp
 name: Super Evil Megacorp
-description: Super Evil Megacorp is a company surfaced as a portfolio company of a16z, index-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Super Evil Megacorp is an award-winning independent video game studio building
+  shared, cross-platform gaming experiences that push creative and technical boundaries.
+  Founded in 2012, the studio is best known for the mobile MOBA Vainglory and has since
+  shipped titles including Catalyst Black, TMNT Splintered Fate, and Blood Line - Rebel Moon,
+  developed on its own in-house game engine. The company was surfaced as a portfolio company
+  of a16z and Index Ventures; it is a consumer games studio and publishes no public developer
+  API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/super-evil-megacorp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +15,30 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://a.storyblok.com/f/197775/1920x1080/9cb88d2d90/semc-hero.png/m/1200x627/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Games
+- Gaming
+- Video Games
+- Game Studio
+- Mobile Games
+- Game Development
+- Esports
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,38 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/super-evil-megacorp-domain-security.yml
 - type: Website
-  url: http://superevilmegacorp.com
+  url: https://superevilmegacorp.com
+- type: About
+  url: https://superevilmegacorp.com/about/
+- type: Careers
+  url: https://superevilmegacorp.com/careers/
+- type: Blog
+  url: https://superevilmegacorp.com/news/
+- type: Press
+  url: https://superevilmegacorp.com/press/
+- type: Support
+  url: https://superevilmegacorp.com/contact/
+- type: TermsOfService
+  url: https://superevilmegacorp.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://superevilmegacorp.com/privacy-policy/
+- type: Discord
+  url: https://discord.gg/superevilmc
+- type: Twitter
+  url: https://twitter.com/superevilmegaco
+- type: Facebook
+  url: https://www.facebook.com/superevilmegacorp/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/super-evil-megacorp/
+- type: TikTok
+  url: https://www.tiktok.com/@super.evil.megacorp
+- type: YouTube
+  url: https://www.youtube.com/@super-evil-megacorp
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
