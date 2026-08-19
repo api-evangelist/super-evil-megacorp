@@ -27,7 +27,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://a.storyblok.com/f/197775/1920x1080/9cb88d2d90/semc-hero.png/m/1200x627/
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
